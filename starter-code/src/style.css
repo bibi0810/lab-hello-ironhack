@@ -1,0 +1,88 @@
+body {
+  background-color: aquamarine;
+  font-family: Helvetica;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+.headers {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: 45%;
+  height: 60%;
+  justify-self: center;
+  margin-block-end: 0;
+  margin-left: 5vw;
+}
+
+#headerOne {
+  font-size: 65px;
+}
+
+#headerTwo {
+  font-size: 20px;
+  width: 40%;
+  font-weight: lighter;
+}
+
+h1 {
+  margin-block-end: 0;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  background-color: white;
+  padding-block-end: 30vh;
+  padding-block-start: 30vh;
+}
+
+#awesomeButton {
+  width: 30%;
+  padding: 20px;
+  background-color: white;
+  color: rgb(37, 37, 54);
+  font-size: 20px;
+  border-radius: 3px;
+  font-weight: 500;
+  box-shadow: none;
+  border: none;
+  margin-block-end: 10vh;
+  margin-block-start: 10vh;
+}
+
+.icons h1 {
+  font-size: 25px;
+}
+
+.icons p {
+  font-size: 20px;
+  font-weight: lighter;
+  width: 15vw;
+}
+
+.icons img {
+  width: 130px;
+}
+
+#one {
+  margin-left: 10vw;
+}
+
+#four {
+  margin-right: 10vw;
+}
+
+.icons div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
